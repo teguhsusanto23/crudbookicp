@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">crudbook</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_books">Books</string>
+    <string name="btn_logout">Logout</string>
+    <string name="appbar_scrolling_view_behavior"></string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="www.crudbook.com"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#448AFF" />
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:text="Dashboard Page"
+            android:textSize="16dip" />
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_profile"
+            android:background="#FFC107"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginBottom="3dip"/>
+        <Button
+            android:id="@+id/btnBooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_books"
+            android:background="#448AFF"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginBottom="3dip"/>
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_logout"
+            android:background="#F44336"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginBottom="3dip"/>
+    </LinearLayout>
+</RelativeLayout>
