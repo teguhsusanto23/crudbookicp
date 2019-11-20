@@ -1,10 +1,14 @@
 <application>
   <component name="MaterialThemeConfig">
+    <option name="highlightColorEnabled" value="true" />
+    <option name="isContrastMode" value="true" />
     <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
-    <option name="overrideAccentColor" value="true" />
     <option name="pristineConfig" value="false" />
-    <option name="accentColor" value="84ffff" />
+    <option name="themedScrollbars" value="false" />
+    <option name="upperCaseButtons" value="false" />
+    <option name="settingsSelectedTab" value="4" />
+    <option name="accentColor" value="3f44ff" />
     <option name="selectedTheme" value="DEEPOCEAN" />
     <option name="userId" value="-2c6f531d:16e87707e80:-8000" />
     <option name="version" value="3.10.0" />
